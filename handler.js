@@ -115,8 +115,8 @@ module.exports = handler = async (mek, conn, map) => {
 							//renderLargerThumbnail: true,
 							showAdAttribution: true,
 							body: "",
-							thumbnail: await conn.getBuffer("https://telegra.ph/file/829db99aaba4cd7695e65.jpg"),
-							sourceUrl: "https://chat.whatsapp.com/JUB7QWnyGVWFW1Ce2sZ3bx",
+							thumbnail: await conn.getBuffer("https://telegra.ph/file/2e1dfa3cb542928cab59f.jpg"),
+							sourceUrl: "https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL",
 						},
 				  })
 				: "";
@@ -149,7 +149,7 @@ module.exports = handler = async (mek, conn, map) => {
 				});
 				options.userJid = conn.user.id;
 				const fromContent = await Baileys.generateWAMessageFromContent(jid, contentMsg, options);
-				fromContent.key.id = "SENKUU" + require("crypto").randomBytes(13).toString("hex").toUpperCase();
+				fromContent.key.id = "Rafly" + require("crypto").randomBytes(13).toString("hex").toUpperCase();
 				await conn.relayMessage(jid, fromContent.message, {
 					messageId: fromContent.key.id,
 					additionalAttributes,
