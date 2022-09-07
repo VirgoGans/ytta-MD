@@ -82,7 +82,7 @@ module.exports = {
 			menu += monospace(" ❏ Date : " + date) + "\n"
 			menu += monospace(" ❏ Time : " + time) + "\n"
 		  menu += monospace(" ❏ Speed :  " + processTime(msg.messageTimestamp, moment()) + " Seccond") + "\n\n"
-		  menu += "*This Bot script is : https://github.com/xzeera-id/Senkuu-MD*\n_Tanda ❌ berarti Error atau Fitur sedang Dinonaktifkan oleh Owner!!_\n\n"
+		  menu += "*This Bot script is : https://github.com/AMBYSBOTZ\nhttps://github.com/BOTCAHX*\n_Tanda ❌ berarti Error atau Fitur sedang Dinonaktifkan oleh Owner!!_\n\n"
 			menu += monospace(`Halo, @${sender.split("@")[0]} Here my Command List`) +`\n\n`;
 			const keys = Object.keys(category)
 			menu += "*乂 CATEGORY MENU*\n"
@@ -94,7 +94,7 @@ module.exports = {
 			  menu += `*乂 ${key.toUpperCase()}*\n`
 			  menu += `${category[key].map((cmd) => monospace(` × ${cmd.options.noPrefix ? "" : pref}${cmd.name} ${map.lockcmd.get(cmd.name) ? "❌" : ""}`)).join("\n")} ` + "\n\n"
 			}
-			menu += `*Thanks To:*\n• Senkuu\n•ZeraaID\n•Zynfinity\n\n`
+			menu += `*Thanks To:*\n• Senkuu\n•ZeraaID\n•Zynfinity\nRadhin\XIAO SAN\nVerdihatorou\nAlyaXd\nTioXd\nZivSan\n\n`
 			menu += `_Note : Ketik ${prefix}help <command> untuk melihat info command_`
 			
 		/*	const buttons = [
@@ -102,9 +102,9 @@ module.exports = {
            { buttonId: `.ping`,buttonText:{displayText: 'Speed'}, type : 1}
            ]
         const buttonMessage = {
-           image: {url: "https://telegra.ph/file/642a95448d0d2d4750a37.jpg"},
+           image: {url: "https://telegra.ph/file/a6025a9a29e8b8ba48b1e.jpg"},
            caption: menu,
-           footer: "Bot Masih dalam tahap Perkembangan",
+           footer: "Bot WhatsApp Multi Device",
            buttons: buttons,
            headerType: 1,
            withTag: true
